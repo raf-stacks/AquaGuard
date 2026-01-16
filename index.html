@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaGuard: The Invisible Toxin - Stop Galamsey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <noscript>
+        <div class="no-js-message">JavaScript is required for interactive content (chart, quiz, slider). Please enable JavaScript in your browser.</div>
+    </noscript>
+
+    <nav id="main-nav" role="navigation">
+        <div class="container">
+            <a href="#hero-section" class="logo">AQUAGUARD</a>
+            <ul>
+                <li class="nav-item">
+                    <a href="#what-is-it">The Crisis</a>
+                    <div class="nav-popout">Illegal mining's methods, types, and the people involved.</div>
+                </li>
+                <li class="nav-item">
+                    <a href="#mercury-effect">The Toxin</a>
+                    <div class="nav-popout">Scientific breakdown of Mercury (Hg) and Bioaccumulation.</div>
+                </li>
+                <li class="nav-item">
+                    <a href="#data-impacts">The Cost</a>
+                    <div class="nav-popout">Environmental, health, and economic effects quantified.</div>
+                </li>
+                <li class="nav-item">
+                    <a href="#the-future">The Solution</a>
+                    <div class="nav-popout">Policies, preventive measures, and the positive path forward.</div>
+                </li>
+                <li class="nav-item">
+                    <a href="#action-quiz">Challenge</a>
+                    <div class="nav-popout">Test your knowledge and become an AquaGuard champion.</div>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div id="hero-section" >
+        <div class="hero-overlay">
+            <div class=" hero-content">
+                <h1>EVERY DROP MATTERS</h1>
+                <h2>Protecting Ghana's Water from Illegal Mining (Galamsey)</h2>
+                <p class="pa">An educational campaign on the urgent threat of water scarcity, siltation, and mercury contamination.</p>
+                <a href="#what-is-it" class="cta-button" aria-label="Explore the threat"><i class="fas fa-arrow-down"></i> EXPLORE THE THREAT</a>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <section id="what-is-it" class="content-section">
+            <div class="container">
+                <h3>What is Galamsey? <br>
+                    The Anatomy of an Illegal Operation</h3>
+                <p><strong>Galamsey</strong> is the Ghanaian term for illegal, unregulated small-scale gold mining. Unlike licensed mining, Galamsey operates without environmental safeguards or government oversight, directly undermining the nation's health and water security.</p>
+                
+                <div class="detail-grid">
+                    <div>
+                        <img class="content-image" src="/hik/2idea/images/types.jpg" alt="Mining site">
+                        <h4>Types of Illegal Mining</h4>
+                        <ul>
+                            <li><strong>Shallow Alluvial Mining:</strong> The popular 'dig and wash' method for deposits under 3 meters deep.</li>
+                            <li><strong>Deep Alluvial Mining:</strong> Excavating pits (7 to 12 meters deep) along major river banks (e.g., Pra, Ankobra).</li>
+                            <li><strong>Hard Rock (Lode) Mining:</strong> Mining gold-bearing reefs, sometimes illegally using prohibited explosives.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img class="content-image" src="images/equip.avif" alt="Mining tools">
+                        <h4>Tools and Equipment</h4>
+                        <p>Illegal operations range from rudimentary tools to heavy machinery:</p>
+                        <ul>
+                            <li><strong>Artisanal Tools:</strong> Shovels, pick-axes, pans, and sluice boxes.</li>
+
+
+<li><strong>Mechanized Tools:</strong> Water pumps, generators, excavators, bulldozers, and local chinvan machines.</li>
+                            <li><strong>Chemicals:</strong> Primarily Mercury (Hg) is the main chemical used for cheap and efficient gold extraction.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img class="content-image" src="images/inv.jpg" alt="Local community and river">
+                        <h4>Persons Involved & Causes</h4>
+                        <p>Miners are often unemployed youth driven by poverty. Financiers (sometimes foreign) profit from the lack of regulation. This is driven by high unemployment, weak governance, and high global gold prices.</p>
+                        <p><strong>Areas Affected:</strong> Major rivers like the Pra, Tano, Birim, Ankobra, and Offin, which are vital drinking water sources.</p>
+                    </div>
+                </div>
+                <iframe width="709" height="500" src="https://www.youtube.com/embed/itqpzslr8jg" title="Battling Galamsey: Community efforts against illegal mining in Ghana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <img    src="images/sache.jpg" alt="hm" height="500px"  width="400px">
+            </div>
+        </section>
+
+        <section id="mercury-effect" class="content-section dark-bg">
+            <div class="container">
+                <h3>The Invisible Toxin: Mercury's Scientific Journey</h3>
+                <p>Galamsey introduces the highly dangerous neurotoxin, Mercury (Hg), into our water systems. This is how the contamination spreads and affects us. Drag the slider to see the progression of the invisible threat.</p>
+                <div class="interactive-slider-container">
+                    <div id="contamination-map-display">
+                        <div id="mercury-level-indicator"></div>
+                        <p class="placeholder-text"></p>
+                    </div>
+                    <input type="range" min="0" max="100" value="0" id="mercury-slider">
+                    <div id="mercury-fact-display"></div>
+                </div>
+                <div class="mercury-details">
+                    <h4>The Process: Bioaccumulation</h4>
+                    <p>Mercury is converted by bacteria into Methylmercury, which is then absorbed by small aquatic organisms. As larger fish eat smaller contaminated fish, the toxin level bio-magnifies dramatically, reaching toxic levels in fish, which are then consumed by humans.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="data-impacts" class="content-section">
+            <div class="container">
+                <h3>Quantifying the Destruction: The True Cost</h3>
+                
+                <div class="data-viz-area" role="region" aria-label="Impacts chart">
+                    <canvas id="impactsChart" aria-hidden="false"></canvas>
+                </div>
+
+                <div class="impact-details-grid">
+                    <div>
+                        <h4>Environmental Effects</h4>
+                        <p><strong>Siltation (Turbidity):</strong> Massive sediment runoff chokes rivers, blocking sunlight and destroying ecosystems. Contamination: High levels of Mercury, Arsenic, and Cadmium pollute the water and soil (Source 4.1, 6.1). Land Degradation: Widespread deforestation and pit digging.</p>
+                    </div>
+                    <div>
+                        <h4>Health & Social Effects</h4>
+                        <p><strong>Health:</strong> Exposure to methylmercury causes severe, irreversible neurological damage, kidney malfunction, and birth defects. Miners face high risks of respiratory issues. Social: Leads to conflict, loss of traditional elihoods (fishing/farming), and increased water scarcity.</p>
+                    </div>
+                    <div>
+                        <h4>Economic Effects</h4>
+                        <p>The government loses over $500 million annually in unpaid taxes. Cleanup costs, environmental remediation, and the burden on the public health system create a massive economic strain (Source 8.1).</p>
+</div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="the-future" class="content-section dark-bg">
+            <div class="container">
+                <h3>The Path to Clean Water: Policy, Prevention, and Proper Practice</h3>
+                
+                <div class="policy-grid">
+                    <div class="policy-card">
+                        <img class="policy-image" src="images/policy-gov.svg" alt="Policy document">
+                        <h4>Government Policies and Laws</h4>
+                        <p>The Minerals and Mining Act, 2006 (Act 703) is the core law, but enforcement remains the biggest challenge. Taskforces like *Operation Vanguard* attempt to clamp down on illegal activity.</p>
+                    </div>
+                    <div class="policy-card">
+                        <img class="policy-image" src="/hik/2idea/images/pf.jpg" alt="Preventive measures">
+                        <h4>Solutions & Preventive Measures</h4>
+                        <p>Promoting mercury-free mining techniques (like Gravity Concentration or Borax), rigorous border controls on chemicals, and high-level training for miners on formal procedures and health risks.</p>
+                    </div>
+                    <div class="policy-card">
+                        <img class="policy-image" src="/hik/2idea/images/images.jfif" alt="Regulated mining benefits">
+                        <h4>Positive Side of Regulated Mining</h4>
+                        <p>Formal small-scale mining contributes over 35% of Ghana’s gold and provides millions of legal jobs (Source 11.1). Regulation ensures taxes are paid, environmental standards are met, and communities receive investment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="action-quiz" class="content-section">
+            <div class="container">
+                <h3>AquaGuard Challenge: Test Your Knowledge</h3>
+                <p>Take the quiz to prove you understand the crisis and how to be a part of the solution. Every educated citizen is an AquaGuard.</p>
+                <div id="quiz-area">
+                    <button id="start-quiz" class="cta-buttonn" aria-label="Start AquaGuard quiz">START THE AQUAGUARD CHALLENGE</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ghana Water Campaign - AquaGuard. A BTEC Project.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
